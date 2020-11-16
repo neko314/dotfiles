@@ -15,7 +15,11 @@ set -gx PKG_CONFIG_PATH "/usr/local/opt/icu4c/lib/pkgconfig"
 
 ## compiler setting
 set -gx LDFLAGS "-L/usr/local/opt/icu4c/lib"
-set -gx CPPFLAGS "-I/usr/local/opt/icu4c/include" 
+set -gx CPPFLAGS "-I/usr/local/opt/icu4c/include"
+
+## Golang setting
+set -x GOPATH /users/kanekokeiko/go
+set -x PATH $PATH /usr/local/go/bin $GOPATH/bin
 
 ## imagemagick setting
 set -g fish_user_paths "/usr/local/opt/imagemagick@6/bin" $fish_user_paths
