@@ -1,0 +1,21 @@
+[user]
+	name = Keiko Kaneko
+	email = keiko.cda@gmail.com
+[color]
+	ui = true
+	branch = true
+	interactive = true
+	status = true
+	commit = true
+[color "diff"]
+	meta = blue black bold
+	new = green
+	old = red
+[color "commit"]
+	meta = blue black bold
+	new = green
+	old = red
+[core]
+	editor = vim
+[init]
+    defaultBranch = main
