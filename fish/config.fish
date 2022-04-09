@@ -45,7 +45,7 @@ if status --is-interactive
     abbr --add --global sleep 'pmset sleepnow'
 
     abbr --add --global btc 'blueutil --connect'
-    abbr --add --global btd 'blueutil --disconnect' 
+    abbr --add --global btd 'blueutil --disconnect'
 end
 
 # use blueutil
