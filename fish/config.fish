@@ -39,6 +39,8 @@ if status --is-interactive
     abbr --add --global gco   'git checkout'
     abbr --add --global gst   'git status'
     abbr --add --global gl    'git log -p --stat'
+    abbr --add --global gpl   'git pull'
+    abbr --add --global gps   'git push'
 
     abbr --add --global pr    'gh pr checkout'
 
