@@ -5,6 +5,10 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 status --is-interactive; and source (rbenv init -|psub)
 set PATH  ~/.rbenv/shims:/usr/local/bin $PATH
 
+## pyenv init setting
+status --is-interactive; and source (pyenv init -|psub)
+set PATH  ~/.pyenv/shims:/usr/local/bin $PATH
+
 ## npm setting
 set PAHT ~/.npm-global/bin $PATHset -g fish_user_paths "/usr/local/opt/icu4c/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/icu4c/sbin" $fish_user_paths
