@@ -31,6 +31,9 @@ set -g fish_user_paths "/usr/local/opt/imagemagick@6/bin" $fish_user_paths
 ## vi mode
 fish_vi_key_bindings
 
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
 if status --is-interactive
     abbr --add --global b     'bundle'
     abbr --add --global bi    'bundle install'
