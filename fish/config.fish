@@ -1,16 +1,14 @@
 ## lsコマンド結果の配色
 export LSCOLORS=Gxfxcxdxbxegedabagacad
 
-## rbenv init setting
-status --is-interactive; and source (rbenv init -|psub)
+## anyenv
+status --is-interactive; and source (anyenv init -|psub)
+
+## rbenv etting
 set PATH  ~/.rbenv/shims:/usr/local/bin $PATH
 
-## pyenv init setting
-status --is-interactive; and source (pyenv init -|psub)
+## pyenv setting
 set PATH  ~/.pyenv/shims:/usr/local/bin $PATH
-
-## nodenv setting
-eval (nodenv init - | source)
 
 ## npm setting
 set PAHT ~/.npm-global/bin $PATHset -g fish_user_paths "/usr/local/opt/icu4c/bin" $fish_user_paths
