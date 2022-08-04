@@ -1,7 +1,9 @@
 ## Usage
 
+After cloning this repo, run these commands on my terminal.
+
 ```sh
-$ git clone git@github.com:neko314/dotfiles.git
+$ cd dotfiles
 $ chmod +x dotfilesLink.sh
 $ sh dotfilesLink.sh
 ```
