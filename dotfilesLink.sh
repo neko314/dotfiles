@@ -1,8 +1,7 @@
 #!/bin/sh
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/zsh/abbreviations ~/.config/zsh/abbreviations
+ln -sf ~/dotfiles/zsh/.zshenv  ~/.zshenv
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
-
-mkdir ~/.config/fish ~/.config/fish/functions
-ln -sf ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
-ln -sf ~/dotfiles/fish/functions/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
-ln -sf ~/dotfiles/fish/fish_variables ~/.config/fish/fish_variables
+ln -sf ~/dotfiles/.git-prompt.sh ~/.git-prompt.sh
