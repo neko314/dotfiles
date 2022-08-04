@@ -1,0 +1,21 @@
+# git commands
+abbr -g clean='git branch --merged|egrep -v "\*|develop|master"|xargs git branch -d'
+abbr -g ga="git add"
+abbr -g gb="git branch"
+abbr -g gc="git commit -v"
+abbr -g gco="git checkout"
+abbr -g gst="git status"
+abbr -g gl="git log -p --stat"
+abbr -g gpl="git pull"
+abbr -g gps="git push"
+abbr -g gr="git rebase"
+abbr -g autosquash="git rebase -i --autosquash"
+abbr -g prc="gh pr checkout"
+
+# Ruby
+abbr -g b="bundle"
+abbr -g bi="bundle install"
+abbr -g bx="bundle exec"
+abbr -g br="bundle exec rspec"
+abbr -g bcop="bundle exec rubocop"
+
