@@ -21,3 +21,7 @@ PS1='\
 %F{cyan}%~%f\
 $(__git_ps1 " %s ") \
 $ '
+
+# anyenv
+## https://github.com/anyenv/anyenv
+eval "$(anyenv init -)"
