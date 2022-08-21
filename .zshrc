@@ -25,3 +25,6 @@ $ '
 # anyenv
 ## https://github.com/anyenv/anyenv
 eval "$(anyenv init -)"
+
+# SQLite
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
