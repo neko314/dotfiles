@@ -28,3 +28,6 @@ eval "$(anyenv init -)"
 
 # SQLite
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
+
+# Open VSCode with `bundle open`
+export BUNDLER_EDITOR=code
