@@ -19,3 +19,5 @@ abbr -g bx="bundle exec"
 abbr -g br="bundle exec rspec"
 abbr -g bcop="bundle exec rubocop"
 
+# Docker
+abbr -g dc="docker-compose"
