@@ -9,7 +9,7 @@ abbr -g gl="git log -p --stat"
 abbr -g gpl="git pull"
 abbr -g gps="git push"
 abbr -g gr="git rebase"
-abbr -g autosquash="git rebase -i --autosquash"
+abbr -g as="git rebase -i --autosquash HEAD~"
 abbr -g prc="gh pr checkout"
 
 # Ruby
