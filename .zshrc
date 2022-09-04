@@ -31,3 +31,4 @@ export PATH="/usr/local/opt/sqlite/bin:$PATH"
 
 # Open VSCode with `bundle open`
 export BUNDLER_EDITOR=code
+export PATH="$PATH:/usr/local/bin/diff-highlight"
