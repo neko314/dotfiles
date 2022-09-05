@@ -1,4 +1,5 @@
 # git commands
+abbr -g amend='git commit --amend'
 abbr -g clean='git branch --merged|egrep -v "\*|develop|master"|xargs git branch -d'
 abbr -g ga="git add"
 abbr -g gb="git branch"
