@@ -20,5 +20,8 @@ abbr -g bx="bundle exec"
 abbr -g br="bundle exec rspec"
 abbr -g bcop="bundle exec rubocop"
 
+# Rails
+abbr -g brs="bin/rails s"
+
 # Docker
 abbr -g dc="docker-compose"
