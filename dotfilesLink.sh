@@ -6,3 +6,4 @@ ln -sf ~/dotfiles/zsh/.zshenv  ~/.zshenv
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.git-prompt.sh ~/.git-prompt.sh
 ln -sf ~/dotfiles/.tigrc ~/.tigrc
+ln -sf ~/dotfiles/.npmrc ~/.npmrc
