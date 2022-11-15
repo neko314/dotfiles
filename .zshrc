@@ -5,7 +5,7 @@ compinit
 # zsh-abbr
 ## https://github.com/olets/zsh-abbr
 ## My abbreviations are stored in zsh/abbreviations
-source /usr/local/share/zsh-abbr/zsh-abbr.zsh
+source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
 
 # 1Password CLI
 ## https://developer.1password.com/docs/cli/reference/commands/completion/#load-shell-completion-information-for-zsh
