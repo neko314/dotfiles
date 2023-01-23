@@ -25,6 +25,8 @@ $ '
 # anyenv
 ## https://github.com/anyenv/anyenv
 eval "$(anyenv init -)"
+### rbenv
+eval "$(rbenv init - zsh)"
 
 # direnv
 ## https://github.com/direnv/direnv/blob/d84f3fdb1423cb55b72f5971bb2d7907384cf46d/docs/hook.md
