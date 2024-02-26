@@ -20,4 +20,4 @@
 [init]
     defaultBranch = main
 [includeIf "gitdir:~/gitwork/workspace/"]
-  path = ~/.gitconfig-workspace
+  path = .gitconfig.local
