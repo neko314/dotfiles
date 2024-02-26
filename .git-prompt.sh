@@ -584,7 +584,7 @@ __git_ps1 ()
 		fi
 		PS1="$ps1pc_start$gitstring$ps1pc_end"
 	else
-		printf -- "$printf_format" "$gitstring"
+		printf -- "$printf_format" "$gitstring" $'\n'
 	fi
 
 	return $exit
