@@ -1,6 +1,6 @@
 [user]
 	name = Keiko Kaneko
-	email = keiko.cda@gmail.com
+	email = keiko.kaneko@b4a.co.jp
 [color]
 	ui = true
 	branch = true
@@ -20,4 +20,4 @@
 [init]
     defaultBranch = main
 [includeIf "gitdir:~/gitwork/workspace/"]
-  path = ~/.gitconfig-workspace
+  path = .gitconfig.local
