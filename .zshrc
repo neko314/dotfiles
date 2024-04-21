@@ -1,6 +1,6 @@
-# autocompletion
-autoload -Uz compinit
-compinit
+# zsh-autocomplete
+## https://github.com/marlonrichert/zsh-autocomplete
+source /opt/homebrew/opt/zsh-autocomplete/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # zsh-abbr
 ## https://github.com/olets/zsh-abbr
