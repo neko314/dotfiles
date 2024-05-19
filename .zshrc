@@ -34,3 +34,7 @@ eval "$(direnv hook zsh)"
 
 # goenv
 eval "$(goenv init -)"
+
+# Rye: Python Package manager
+# https://rye-up.com/guide/installation/#customized-installation
+source "$HOME/.rye/env"
