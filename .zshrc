@@ -38,3 +38,7 @@ eval "$(goenv init -)"
 # Rye: Python Package manager
 # https://rye-up.com/guide/installation/#customized-installation
 source "$HOME/.rye/env"
+
+# gnu-sed
+PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+alias sed='gsed'
