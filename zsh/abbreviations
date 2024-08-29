@@ -24,4 +24,4 @@ abbr -g bcop="bundle exec rubocop"
 abbr -g brs="bin/rails s"
 
 # Docker
-abbr -g dc="docker-compose"
+abbr -g dc="docker compose"
