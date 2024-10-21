@@ -1,11 +1,11 @@
 # zsh-autocomplete
 ## https://github.com/marlonrichert/zsh-autocomplete
-source /opt/homebrew/opt/zsh-autocomplete/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source /usr/local/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # zsh-abbr
 ## https://github.com/olets/zsh-abbr
 ## My abbreviations are stored in zsh/abbreviations
-source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
+source /usr/local/share/zsh-abbr/zsh-abbr.zsh
 
 # 1Password CLI
 ## https://developer.1password.com/docs/cli/reference/commands/completion/#load-shell-completion-information-for-zsh
