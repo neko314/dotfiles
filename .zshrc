@@ -42,3 +42,7 @@ source "$HOME/.rye/env"
 # gnu-sed
 PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
 alias sed='gsed'
+
+# CloudCode
+# https://docs.anthropic.com/en/docs/claude-code/troubleshooting#linux-permission-issues
+echo 'export PATH=~/.npm-global/bin:$PATH'
