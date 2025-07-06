@@ -1,9 +1,11 @@
 ## Usage
 
 Install tools
-* zsh-abbr https://zsh-abbr.olets.dev/installation.html
 
 ```
+# zsh-abbr https://zsh-abbr.olets.dev/installation.html
+$ brew install olets/tap/zsh-abbr
+
 # zsh-autocomplete https://formulae.brew.sh/formula/zsh-autocomplete
 $ brew install zsh-autocomplete
 
@@ -25,6 +27,11 @@ $ brew install goenv
 # tig https://jonas.github.io/tig/INSTALL.html
 $ brew install tig
 
+# Raycast https://www.raycast.com/
+$ brew install --cask raycast
+
+# My favorite font family: Fira Code https://github.com/tonsky/FiraCode/wiki/Installing
+$ brew install font-fira-code
 ```
 
 After cloning this repo, run these commands on my terminal.
