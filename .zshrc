@@ -7,9 +7,9 @@ source /opt/homebrew/opt/zsh-autocomplete/share/zsh-autocomplete/zsh-autocomplet
 ## My abbreviations are stored in zsh/abbreviations
 source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
 
-# 1Password CLI
-## https://developer.1password.com/docs/cli/reference/commands/completion/#load-shell-completion-information-for-zsh
-eval "$(op completion zsh)"; compdef _op op
+# # 1Password CLI
+# ## https://developer.1password.com/docs/cli/reference/commands/completion/#load-shell-completion-information-for-zsh
+# eval "$(op completion zsh)"; compdef _op op
 
 # prompt
 ## https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html#Prompt-Expansion
@@ -35,9 +35,9 @@ eval "$(direnv hook zsh)"
 # goenv
 eval "$(goenv init -)"
 
-# Rye: Python Package manager
-# https://rye-up.com/guide/installation/#customized-installation
-source "$HOME/.rye/env"
+# # Rye: Python Package manager
+# # https://rye-up.com/guide/installation/#customized-installation
+# source "$HOME/.rye/env"
 
 # gnu-sed
 PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
