@@ -52,4 +52,4 @@ alias sed='gsed'
 
 # CloudCode
 # https://docs.anthropic.com/en/docs/claude-code/troubleshooting#linux-permission-issues
-echo 'export PATH=~/.npm-global/bin:$PATH'
+export PATH=~/.npm-global/bin:$PATH
