@@ -39,6 +39,9 @@ eval "$(direnv hook zsh)"
 # goenv
 eval "$(goenv init -)"
 
+# nodenv https://github.com/nodenv/nodenv
+eval "$(nodenv init - zsh)"
+
 # # Rye: Python Package manager
 # # https://rye-up.com/guide/installation/#customized-installation
 # source "$HOME/.rye/env"
