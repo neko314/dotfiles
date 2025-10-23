@@ -53,3 +53,6 @@ alias sed='gsed'
 # CloudCode
 # https://docs.anthropic.com/en/docs/claude-code/troubleshooting#linux-permission-issues
 export PATH=~/.npm-global/bin:$PATH
+
+# diff-highlight
+export PATH="$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight"
