@@ -56,3 +56,7 @@ export PATH=~/.npm-global/bin:$PATH
 
 # diff-highlight
 export PATH="$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight"
+
+# zsh-autosuggestions
+# https://github.com/zsh-users/zsh-autosuggestions/tree/master
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
