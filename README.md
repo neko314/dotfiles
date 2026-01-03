@@ -32,6 +32,10 @@ $ brew install --cask raycast
 
 # My favorite font family: Fira Code https://github.com/tonsky/FiraCode/wiki/Installing
 $ brew install font-fira-code
+
+# zsh plugins
+$ brew install zsh-autosuggestions
+$ brew install olets/tap/zsh-autosuggestions-abbreviations-strategy
 ```
 
 After cloning this repo, run these commands on my terminal.
