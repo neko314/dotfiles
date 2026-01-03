@@ -60,3 +60,6 @@ export PATH="$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight"
 # zsh-autosuggestions
 # https://github.com/zsh-users/zsh-autosuggestions/tree/master
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# kiro
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
