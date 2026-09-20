@@ -1,0 +1,16 @@
+{
+  "theme": "light",
+  "permissions": {
+    "disableBypassPermissionsMode": "disable",
+    "deny": [
+      "Read(./.env)",
+      "Read(./secrets/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "mcp__*"
+    ]
+  },
+  "sandbox": {
+    "enabled": true
+  }
+}
